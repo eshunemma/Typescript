@@ -1,32 +1,7 @@
-// let employee: {
-//     id: number,
-//     name: string
-// } = { id: 1, name: 'Mosh'}
-
-// we can make name property by adding ? optional 
-// let employee: {
-//     id: number,
-//     name?: string
-// } = { id: 1}
-
-// Read only modifier
-// let employee: {
-//     readonly id: number,
-//     name: string
-// } = { id: 1, name: 'Mosh'}
-
-type Employee = {
-    readonly id: number,
-    name: string
-    retire: (date: Date) => void
+function kgToLbs(weight: number | string): number {
+    // Narrowing
+    if(typeof weight === 'number')
+        return weight * 2.2
+    else 
+        return parseInt(weight) *2.2
 }
-
-let employee: Employee ,{
-} = {
-     id: 1,
-     name: 'Mosh',
-     retire: (date: Date) => {
-        console.log(date);
-        
-     }
-    }

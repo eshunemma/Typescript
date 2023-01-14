@@ -1,1 +1,9 @@
-let user: [number, string] = [1, "Emma"]
+// const small = 1
+// const medium = 2;
+// const large = 3;
+
+
+// PascalCase
+const enum Size {Small = 10, Medium, Large}
+let mySize: Size = Size.Medium;
+console.log(mySize);

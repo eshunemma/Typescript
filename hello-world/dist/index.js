@@ -1,7 +1,3 @@
 "use strict";
-function calculateTax(income) {
-    if (income < 50000)
-        return income * 1.2;
-    return income * 1.3;
-}
+let employee = { id: 1, name: 'Mosh' };
 //# sourceMappingURL=index.js.map

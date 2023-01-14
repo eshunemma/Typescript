@@ -4,6 +4,6 @@
 
 
 // PascalCase
-const enum Size {Small = 10, Medium, Large}
+enum Size {Small = 10, Medium, Large}
 let mySize: Size = Size.Medium;
 console.log(mySize);

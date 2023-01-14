@@ -1,1 +1,7 @@
 creating a config file for ts compiler - tsc --init
+
+// Debugging
+go to tsconfigunder emit 
+uncomment  "sourceMap: true" - a file that specifies how each line of our ts code 
+maps to the generated js code.
+- a file will be created under dist with index.js.map

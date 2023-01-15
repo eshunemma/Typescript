@@ -1,8 +1,12 @@
-function greet(name: string | null) {
-    if (name)
-        console.log(`Kaabo ${name}`);
-    else
-        console.log('Hola')
-}
+ type Customer = {
+    birthday?: Date
+ }
 
-greet(null)
+ function getCustomer(id: number): Customer | null |undefined {
+    // if id = 0, return null or return customer object with now birthday set to null
+    return id === 0 ? null: {birthday: new Date()}
+ }
+
+ let customer = getCustomer(1)
+ console.log(customer?.birthday?.getFullYear());
+ 

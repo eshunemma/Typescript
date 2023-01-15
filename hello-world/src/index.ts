@@ -1,7 +1,8 @@
-// Literal Type(exact, specific)
-type Quantity = 50 | 100;
-let quantity: Quantity = 100
+let speed: number | null = null;
+let ride = {
+    // Nullish coalescing operator
+    // ?? means value can be null or undefined
+    speed: speed ?? 30
+}
 
-// Can be 
-type Metric = 'cm' | 'inch';
-let metric: Metric = 'cm'
+console.log(ride);

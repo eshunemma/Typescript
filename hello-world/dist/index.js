@@ -10,10 +10,10 @@ class Account {
             throw new Error('Invalid amount');
         this._balance += amount;
     }
-    getBalance() {
+    get balance() {
         return this._balance;
     }
 }
 let account = new Account(1, 'Emma', 0);
-console.log(account.getBalance());
+console.log(account.balance);
 //# sourceMappingURL=index.js.map

@@ -1,7 +1,8 @@
-// Literal Type(exact, specific)
-type Quantity = 50 | 100;
-let quantity: Quantity = 100
+function greet(name: string | null) {
+    if (name)
+        console.log(`Kaabo ${name}`);
+    else
+        console.log('Hola')
+}
 
-// Can be 
-type Metric = 'cm' | 'inch';
-let metric: Metric = 'cm'
+greet(null)

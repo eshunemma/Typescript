@@ -1,4 +1,9 @@
 "use strict";
-let quantity = 100;
-let metric = 'cm';
+function greet(name) {
+    if (name)
+        console.log(`Kaabo ${name}`);
+    else
+        console.log('Hola');
+}
+greet(null);
 //# sourceMappingURL=index.js.map

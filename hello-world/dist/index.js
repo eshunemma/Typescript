@@ -12,6 +12,4 @@ class Account {
     }
 }
 let account = new Account(1, 'Emma', 0);
-account.deposit(100);
-console.log(account.balance);
 //# sourceMappingURL=index.js.map

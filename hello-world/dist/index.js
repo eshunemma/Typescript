@@ -1,6 +1,4 @@
 "use strict";
-let textBox = {
-    drag: () => { },
-    resize: () => { }
-};
+let quantity = 100;
+let metric = 'cm';
 //# sourceMappingURL=index.js.map
